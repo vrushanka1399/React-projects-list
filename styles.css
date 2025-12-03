@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: Arial;
+}
+
+/* Title */
+.main-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search + Stats */
+.top-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+/* Add Note Form */
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.note-form input,
+.note-form textarea {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.add-btn {
+  padding: 8px;
+  background-color: #4b7bec;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-btn:hover {
+  background-color: #3867d6;
+}
+
+/* Note List */
+.note-list {
+  margin-top: 20px;
+}
+
+/* Individual Note */
+.note-item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.note-item h3 {
+  margin-bottom: 5px;
+}
+
+.delete-btn {
+  padding: 6px 10px;
+  background-color: #eb3b5a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #d63031;
+}
